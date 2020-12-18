@@ -81,6 +81,9 @@ nav a#pull {
 }
 
 @media screen and (max-width: 600px) {  
+    .expecto,nav li:first-child{
+        visibility: hidden;
+    }
     nav {   
         height: auto;  
     }  
