@@ -27,13 +27,8 @@ nav ul {
 }  
 
 nav li {  
-	padding-left: 25px;
     display: inline;  
     float: left;  
-}  
-
-nav li:not(:first-child) {  
-    padding-left: 35px;
 }  
 
 
@@ -53,6 +48,7 @@ nav a {
     color: #fff;  
     display: inline-block;   
     text-align: center;  
+    padding: 1px 16px;
     text-decoration: none;  
     line-height: 40px;  
     text-shadow: 1px 1px 0px #283744;  
@@ -68,7 +64,9 @@ nav li:last-child a {
 
 .expecto,
 nav a:hover, nav a:active {  
-    color: #d9d9d9;  
+        background-color: #4CAF50;
+        color: #fff;
+        transition: all .3s ease;
 }  
 
 
@@ -81,9 +79,6 @@ nav a#pull {
 }
 
 @media screen and (max-width: 600px) {  
-    .expecto,nav li:first-child{
-        visibility: hidden;
-    }
     nav {   
         height: auto;  
     }  
@@ -106,10 +101,17 @@ nav a#pull {
         text-align: left;  
         width: 100%;  
         text-indent: 25px;  
+        padding: 0;
     } 
-    nav li:not(:first-child) {
+    nav a:hover{
+        background-color: #4CAF50;
+        color: #fff;
+        transition: all .3s ease;
+
+    }
+    nav li:not(:first-child) {  
     padding-left: 0px;
-} 
+}  
 }  
 
 

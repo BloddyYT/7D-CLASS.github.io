@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+   div{
+      overflow-x: auto;
+   }
+   table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 98%;
+      border: 1px solid rgb(0, 0, 0);
+      table-layout: fixed;
+      margin-left: 1.5%;
+   }
+   th:not(:first-child), td {
+      text-align: left;
+      padding: 8px;
+      width: 2%;
+      border:1px solid #000;
+   }
+   th:first-child{
+   	width: 0.5%;
+   	border:1px solid #000;
+   }
+   tr:nth-child(even){background-color: #f2f2f2}
+
+   @media screen and (max-width:980px){
+   	table{
+   		table-layout: unset;
+   		width: 95%;
+   		margin-left: 0;
+   	}
+   	 th:not(:first-child), td{
+   	 	width: 1%;
+   	 }
+   }
+</style>
+<body>
+	<div>
+	<table>
+<tr>
+<th></th>
+<th>ԵՐԿՈՒՇԱԲԹԻ</th>
+<th>ԵՐԵՔՇԱԲԹԻ</th>
+<th>ՉՈՐԵՔՇԱԲԹԻ</th>
+<th>ՀԻՆԳՇԱԲԹԻ</th>
+<th>ՈՒՐԲԱԹ</th>
+<th>ՇԱԲԱԹ</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Գերմաներեն/Անգլերեն</td>
+<td>Երկրաչափություն</td>
+<td>Կենսաբանություն</td>
+<td>Կերպարվեստ</td>
+<td>Հանրահաշիվ</td>
+<td>Ազգային երգ ու պար</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Հանրահաշիվ</td>
+<td>Աշխարհագրություն</td>
+<td>Երկրաչափություն</td>
+<td>Հայ եկեղեցու պատմություն</td>
+<td>
+Գրականություն</td>
+<td>Հանրահաշիվ</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Հայոց լեզու</td>
+<td>Հայոց պատմություն</td>
+<td>Ռուսաց լեզու</td>
+<td>Ռուսաց լեզու</td>
+<td>Կենսաբանություն</td>
+<td>Հայոց պատմություն</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>Քիմիա</td>
+	<td>Ֆիզիկա</td>
+	<td>Համաշխարհային պատմություն</td>
+	<td>Հայոց լեզու</td>
+	<td>Կենսաբանություն</td>
+	<td>Հայոց լեզու</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>Ռուսաց լեզու</td>
+	<td>Գրականություն</td>
+	<td>Գերմաներեն/Անգլերեն</td>
+	<td>Քիմիա</td>
+	<td rowspan="2">Ինֆորմատիկա</td>
+	<td rowspan="2">Ֆիզկուլտուրա</td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>Ֆիզկուլտուրա</td>
+	<td>Տեխնոլոգիա</td>
+	<td>Ֆիզիկա</td>
+	<td>Ազգային երգ ու պար</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
