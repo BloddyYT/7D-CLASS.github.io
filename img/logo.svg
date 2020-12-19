@@ -9,8 +9,7 @@
  </g>
  <g>
   <title>Layer 1</title>
-  <rect stroke="#000" id="svg_3" height="304.00001" width="366.99999" y="0.45312" x="1" stroke-opacity="null" stroke-width="1.5" fill="#000000"/>
+  <text stroke="#000" transform="matrix(11.090601523644985,0,0,11.090601523644985,-676.0433344467176,-704.1335637321475) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="83.59078" x="62.55354" stroke-opacity="null" stroke-width="0" fill="#000000">7դ</text>
   <rect id="svg_4" height="3" width="1" y="-72.54688" x="569" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"/>
-  <text stroke="#000" transform="matrix(7.10027551651001,0,0,7.10027551651001,-433.1195616722107,-448.0843000486493) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="92.35465" x="71.84504" stroke-opacity="null" stroke-width="0" fill="#ffffff">7դ</text>
  </g>
 </svg>
