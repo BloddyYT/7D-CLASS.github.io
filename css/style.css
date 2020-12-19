@@ -78,6 +78,14 @@ nav a#pull {
     height: 35px;
 }
 
+.class-block{
+    width: 100%;
+    height: 900px;
+    background-image: url('https://image.freepik.com/free-vector/cartoon-empty-elementary-high-school-college-university-classroom-background_33099-41.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 @media screen and (max-width: 600px) {  
     nav {   
         height: auto;  
