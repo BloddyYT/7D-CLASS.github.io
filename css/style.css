@@ -165,7 +165,7 @@ nav a#pull {
     padding-left: 0px;
 }  
     .class-block{
-        height: 400px;
+        height: 350px;
     }
     .class-block h1{
          font-size:6.5vw;
@@ -181,11 +181,12 @@ nav a#pull {
 
 @media only screen and (max-width : 450px){
 .class-block {
-    height: 325px;
+    height: 290px;
 }
 .class-block button{
-    height: 3.6vh;
+    height: 3.8vh;
     border:1px solid #fff;
+    font-size: 2.5vw;
 }
 }
 
