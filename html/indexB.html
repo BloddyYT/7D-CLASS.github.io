@@ -7,8 +7,21 @@
 	<link rel="icon" href="../img/logo.svg">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/styleB.css">
+	<link rel="stylesheet" href="../css/preloader.css">
 </head>
 <body>
+		<div class="preloader">
+  <div class="preloader__row">
+  	<div class="preloaders">
+    <div class="preloader__item first"></div>
+    <div class="preloader__item second"></div>
+    <div class="preloader__item third"></div>
+    <div class="preloader__item fourth"></div>
+</div>
+  </div>
+        <p id="hi"></p>
+</div>
+
 	<nav class="menu">  
     <ul class="menu">  
     	<li><a href="indexB.html" style="background-color: #4CAF50">Դասացուցակ</a></li>  
@@ -83,12 +96,14 @@
 </tr>
 </table>
 </div>
-<script>
+<p class="i"></p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
 	if (screen.width < 900) {
-    alert('Դիտելու համար ձեռքով շարժում կատարեք դեպի աջ');
+    $('.i').append('Աղյուսակը տեղաշարժելու համար ձեռքով շարժում կատարեք դեպի աջ')
 }
 </script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="../script.js"></script>
+	<script src="../js/script.js"></script>
+	<script src="../js/preloader.js"></script>
 </body>
 </html>
