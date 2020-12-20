@@ -1,0 +1,34 @@
+ div{
+      overflow-x: auto;
+   }
+   table {
+      margin-top: 3%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 98%;
+      border: 1px solid rgb(0, 0, 0);
+      table-layout: fixed;
+      margin-left: 1.5%;
+   }
+   th:not(:first-child), td {
+      text-align: left;
+      padding: 8px;
+      width: 2%;
+      border:1px solid #000;
+   }
+   th:first-child{
+   	width: 0.5%;
+   	border:1px solid #000;
+   }
+   tr:nth-child(even){background-color: #f2f2f2}
+
+   @media screen and (max-width:980px){
+   	table{
+   		table-layout: unset;
+   		width: 95%;
+   		margin-left: 0;
+   	}
+   	 th:not(:first-child), td{
+   	 	width: 1%;
+   	 }
+   }

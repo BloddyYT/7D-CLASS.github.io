@@ -5,43 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>դասարան</title>
 	<link rel="icon" href="../img/logo.svg">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/styleB.css">
 </head>
-<style>
-   div{
-      overflow-x: auto;
-   }
-   table {
-      border-collapse: collapse;
-      border-spacing: 0;
-      width: 98%;
-      border: 1px solid rgb(0, 0, 0);
-      table-layout: fixed;
-      margin-left: 1.5%;
-   }
-   th:not(:first-child), td {
-      text-align: left;
-      padding: 8px;
-      width: 2%;
-      border:1px solid #000;
-   }
-   th:first-child{
-   	width: 0.5%;
-   	border:1px solid #000;
-   }
-   tr:nth-child(even){background-color: #f2f2f2}
-
-   @media screen and (max-width:980px){
-   	table{
-   		table-layout: unset;
-   		width: 95%;
-   		margin-left: 0;
-   	}
-   	 th:not(:first-child), td{
-   	 	width: 1%;
-   	 }
-   }
-</style>
 <body>
+	<nav class="menu">  
+    <ul class="menu">  
+    	<li><a href="indexB.html" style="background-color: #4CAF50">Դասացուցակ</a></li>  
+        <li><a href="../index.html" class="expecto">7դ դասարան</a></li>
+        <li><a href="#" class="expect">Դասարանի կազմ</a></li>  
+    </ul>  
+    <a href="#" id="pull">Դասացուցակ<img src="../img/menu.svg" alt="" class="menu-logo" ></a>  
+</nav>  
 	<div>
 	<table>
 <tr>
@@ -113,5 +88,7 @@
     alert('Դիտելու համար ձեռքով շարժում կատարեք դեպի աջ');
 }
 </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../script.js"></script>
 </body>
 </html>

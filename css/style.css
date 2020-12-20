@@ -68,7 +68,6 @@ nav li:last-child a {
     border-right: 0;  
 }  
 
-.expecto,
 nav a:hover, nav a:active {  
         background-color: #4CAF50;
         color: #fff;
@@ -87,7 +86,7 @@ nav a#pull {
 .class-block{
     position: relative;
     width: 100%;
-    height: 570px;
+    height: 550px;
     background-image: url('https://wallpaperaccess.com/full/200630.jpg');
     background-repeat: no-repeat;
     background-position: center; 
@@ -208,7 +207,6 @@ nav a#pull {
      nav li{
      	padding-left: 0;
      	float:none;
-     	padding-right: 2%;
      }
 }  
 
