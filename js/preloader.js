@@ -1,10 +1,9 @@
-info = ['Շնորհավոր Ամանօր և Սուրբ Ծնունդ']
+info = ['Դասղեկն է Լուսինե Բաղդասարյանը','Դասարանում կա 21 տղա 9 աղջիկ','Կայքը ստեղծվել է 5 օրում','Շնորհավոր Ամանօր և Սուրբ Ծնունդ','Դասարանում կա 30 աշակերտ','Դասարանում կա 6/7 գերազանցիկ']
 var random = Math.floor(Math.random() * info.length);
 $('#hi').text((info[random]));
 if(info[random] == 'Շնորհավոր Ամանօր և Սուրբ Ծնունդ'){
-	$('.preloader__item').remove()
+	$(".preloader__item").css('backgroundColor', '#fff');
 	$('#pr').removeClass('preloader')
-	$('#preloader-item').addClass('prli')
 	$('#pr').addClass('preloader2')
 	
 }
@@ -13,5 +12,5 @@ if(info[random] == 'Շնորհավոր Ամանօր և Սուրբ Ծնունդ')
   	setTimeout(function(){
   		$('.preloader').fadeOut();
   		$('.preloader2').fadeOut();
-  	},1800);
+  	},1750);
   });
