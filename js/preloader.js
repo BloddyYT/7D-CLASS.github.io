@@ -6,5 +6,5 @@ $('#hi').text((info[random]));
   	setTimeout(function(){
   		$('.preloader').fadeOut();
 
-  	},1250);
+  	},1650);
   });
