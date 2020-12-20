@@ -1,10 +1,17 @@
-info = ['Դասղեկն է Լուսինե Բաղդասարյանը','Դասարանում կա 21 տղա 9 աղջիկ','Կայքը ստեղծվել է 5 օրում','Շնորհավոր Ամանօր և Սուրբ Ծնունդ','Դասարանում կա 30 աշակերտ','Դասարանում կա 6/7 գերազանցիկ']
+info = ['Շնորհավոր Ամանօր և Սուրբ Ծնունդ']
 var random = Math.floor(Math.random() * info.length);
 $('#hi').text((info[random]));
+if(info[random] == 'Շնորհավոր Ամանօր և Սուրբ Ծնունդ'){
+	$('.preloader__item').remove()
+	$('#pr').removeClass('preloader')
+	$('#preloader-item').addClass('prli')
+	$('#pr').addClass('preloader2')
+	
+}
 
   window.onload = (function () {
   	setTimeout(function(){
   		$('.preloader').fadeOut();
-
-  	},1650);
+  		$('.preloader2').fadeOut();
+  	},1800);
   });
