@@ -5,6 +5,12 @@
   font-style: normal;
 }
 
+@font-face { 
+  font-family: 'FMBF-Wien-Regular-9229';
+  src: url('../fonts/FMBF-Wien-Regular-9229.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {  
     margin: 0;
@@ -80,10 +86,21 @@ nav a#pull {
 
 .class-block{
     width: 100%;
-    height: 900px;
-    background-image: url('https://image.freepik.com/free-vector/cartoon-empty-elementary-high-school-college-university-classroom-background_33099-41.jpg');
+    height: 600px;
+    background-image: url('https://wallpaperaccess.com/full/200630.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center; 
+    font-family: 'FMBF-Wien-Regular-9229';
+    margin: 0;
+    padding: 0;
+}
+
+.class-block h1{
+    padding-top: 15%;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {  
@@ -120,6 +137,13 @@ nav a#pull {
     nav li:not(:first-child) {  
     padding-left: 0px;
 }  
+    .class-block{
+        height: 400px;
+    }
+    .class-block h1{
+         font-size:6.5vw;
+
+    }
 }  
 
 
@@ -144,8 +168,6 @@ nav a#pull {
      	padding-right: 2%;
      }
 }  
-
-
 
 @media only screen and (max-width : 320px) {  
     nav li {  
