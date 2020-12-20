@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+::selection{
+    background-color: white;
+}
+
 body {  
     margin: 0;
 }  
@@ -103,7 +107,7 @@ nav a#pull {
     margin: 0;
 }
 
-.class-block button{
+button{
     display: inline-block;
     background: none;
     height: 5.1vh;
@@ -118,15 +122,43 @@ nav a#pull {
     box-sizing: border-box;    
 }
 
-.class-block button:hover,
-.class-block button:focus,
-.class-block button:active{
+button:hover,
+button:focus,
+button:active{
     background-color: #fff;
     color: #000;
     outline:none;
     cursor: pointer;
     font-style: italic;
     transition: all .5s ease;
+}
+
+.btn{
+    margin-top: 0.1%;
+    font-size: 15px;
+}
+
+.block_2{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    background-image: url('https://cdn.hipwallpaper.com/i/62/24/enJlDN.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.block_2 h1{
+    color:white;
+    margin: 0;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+.block_2 h2{
+    color: white;
+    font-family: ArialArmST;
+    font-size: 40px;
+    margin-top:10px;
 }
 
 @media screen and (max-width: 600px) {  
@@ -166,11 +198,17 @@ nav a#pull {
     .class-block{
         height: 350px;
     }
-    .class-block h1{
+    .class-block h1,.block_2 h1{
          font-size:6.5vw;
          padding-top: 30%;
     }
-    .class-block button{
+    .block_2 h2{
+        font-size: 5.6vw;
+    }
+    .block_2{
+        height: 385px;
+    }
+    button{
         font-size: 3vw;
         height: 4.3vh;
         border:2px solid #fff;
@@ -188,6 +226,9 @@ nav a#pull {
     font-size: 2.5vw;
 }
 }
+    .block_2{
+        height: 360px;
+    }
 
 @media only screen and (max-width : 600px) {  
     nav {  
@@ -220,5 +261,8 @@ nav a#pull {
     nav li a {  
         border-bottom: 1px solid #576979;  
     }  
+        .block_2{
+        height: 354px;
+    }
 } 
 
