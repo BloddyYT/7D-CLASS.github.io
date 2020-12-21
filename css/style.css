@@ -19,6 +19,15 @@
 body {  
     margin: 0;
 }  
+
+.class{
+    font-family: FMBF-Wien-Regular-9229;
+}
+
+.class p{
+    font-family: ArialArmST;
+}
+
 nav {  
     height: 40px;  
     width: 100%;  
@@ -102,7 +111,7 @@ nav a#pull {
 
 .class-block h1{
     padding-top: 15%;
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
     margin: 0;
 }

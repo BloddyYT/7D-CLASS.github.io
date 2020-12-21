@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/preloader.css">
+    <link rel="stylesheet" href="../css/styleD.css">
 	<link rel="icon" href="../img/logo.svg">
 	<title>դասարան</title>
 </head>
@@ -33,7 +34,102 @@
     </ul>   
     </ul>  
     <a href="#" id="pull">7դ դասարան<img src="../img/menu.svg" alt="" class="menu-logo" ></a> 
-
+</nav>
+    <main>
+        <div class="class">
+            <h1 class="text">Դասարանի կազմ</h1>
+            <button type="button">Սեղմել խմբերի բաժանելու համար</button>
+                   <p class="half-f">
+           <!-- 1. Ալոյան Սոնա <br> 
+2. Այվազյան Ջիվան <br> 
+3. Ասատրյան Համլետ <br> 
+4. Գասպարյան Արթուր <br> 
+5. Գրիգորյան Գարիկ <br> 
+6. Գևորգյան Հրաչյա <br> 
+7. Երիցյան Արմեն <br> 
+8. Թադևոսյան Արամ <br> 
+9. Հակոբյան Էրիկ <br> 
+10. Հակոբյան Մարտին <br> 
+11. Հայրապետյան Դավիթ <br> 
+12. Հայրապետյան Էդգար <br> 
+13. Հովհաննիսյան Արփի <br> 
+14. Հովհաննիսյան Երվանդ <br> 
+15. Հովհաննիսյան Լիլիա <br> -->
+        </p>
+            <p class="text">
+1. Ալոյան Սոնա <br> 
+2. Այվազյան Ջիվան <br> 
+3. Ասատրյան Համլետ <br> 
+4. Գասպարյան Արթուր <br> 
+5. Գրիգորյան Գարիկ <br> 
+6. Գևորգյան Հրաչյա <br> 
+7. Երիցյան Արմեն <br> 
+8. Թադևոսյան Արամ <br> 
+9. Հակոբյան Էրիկ <br> 
+10. Հակոբյան Մարտին <br> 
+11. Հայրապետյան Դավիթ <br> 
+12. Հայրապետյան Էդգար <br> 
+13. Հովհաննիսյան Արփի <br> 
+14. Հովհաննիսյան Երվանդ <br> 
+15. Հովհաննիսյան Լիլիա <br> 
+16. Ղազարյան Նունե <br> 
+17. Ղազարյան Ռաֆիկ <br> 
+18. Ղարիբյան Սուսաննա <br> 
+19. Ղուկասյան Սուրեն <br> 
+20. Մարգարյան Գարիկ <br> 
+21. Մարգարյան Մերի <br> 
+22. Մելիքյան Նարե <br> 
+23. Մելոյան Կամո <br> 
+24. Մկրտչյան Յուրի <br> 
+25. Մովսիսյան Լուսինե <br> 
+26. Պապոյան Ստեփան <br> 
+27. Սաֆարյան Արթուր <br> 
+28. Սուքիասյան Նարե <br> 
+29. Վարդանյան Դավիթ</p>
+        <p class="half-s">
+         <!--   16. Ղազարյան Նունե <br> 
+17. Ղազարյան Ռաֆիկ <br> 
+18. Ղարիբյան Սուսաննա <br> 
+19. Ղուկասյան Սուրեն <br> 
+20. Մարգարյան Գարիկ <br> 
+21. Մարգարյան Մերի <br> 
+22. Մելիքյան Նարե <br> 
+23. Մելոյան Կամո <br> 
+24. Մկրտչյան Յուրի <br> 
+25. Մովսիսյան Լուսինե <br> 
+26. Պապոյան Ստեփան <br> 
+27. Սաֆարյան Արթուր <br> 
+28. Սուքիասյան Նարե <br> 
+29. Վարդանյան Դավիթ</p> -->
+        </p> 
+        </div>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/script.js"></script>
     <script src="../js/preloader.js"></script>
+    <script>
+        blockHeight = $('.class').height()
+
+        $('button').click(function() {
+            $('.text').remove()
+            $('button').animate({
+                width: 0,
+                display: 'none',
+                fontSize: 0,
+                Background: '#FFF',
+                margin: '0',
+                padding: '0',
+                borderRadius : '0'
+            },
+                500, function() {
+                $('button').animate({
+                    height: blockHeight
+                });
+            });
+            if (screen.width > 900){
+                $('button').css('marginRight', '45%');
+            }
+        });
+
+                
+    </script>
