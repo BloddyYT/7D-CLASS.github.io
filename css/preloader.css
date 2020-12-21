@@ -7,19 +7,8 @@
   right: 0;
   bottom: 0;
   /* фоновый цвет элемента */
-  background: none;
+  background: #303030;
   /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
-  z-index: 1001;
-}
-
-.preloader2{
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background:url('../img/wlp.jpg');
-  background-repeat: no-repeat;
   z-index: 1001;
 }
 
