@@ -17,9 +17,6 @@ $('half').hide()
                     height: blockHeight
                 });
 
-            if (screen.width > 900){
-                $('button').css('marginRight', '45%');
-            }
             $('.half').show('slow').animate({opacity: '1'}, 650)
         });
 }); 
