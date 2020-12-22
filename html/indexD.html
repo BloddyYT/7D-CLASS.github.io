@@ -39,8 +39,8 @@
         <div class="class">
             <h1 class="text">Դասարանի կազմ</h1>
             <button type="button">Սեղմել խմբերի բաժանելու համար</button>
-                   <p class="half-f">
-           <!-- 1. Ալոյան Սոնա <br> 
+                   <p class="half-f half">
+           1. Ալոյան Սոնա <br> 
 2. Այվազյան Ջիվան <br> 
 3. Ասատրյան Համլետ <br> 
 4. Գասպարյան Արթուր <br> 
@@ -54,7 +54,7 @@
 12. Հայրապետյան Էդգար <br> 
 13. Հովհաննիսյան Արփի <br> 
 14. Հովհաննիսյան Երվանդ <br> 
-15. Հովհաննիսյան Լիլիա <br> -->
+15. Հովհաննիսյան Լիլիա <br> 
         </p>
             <p class="text">
 1. Ալոյան Սոնա <br> 
@@ -86,8 +86,8 @@
 27. Սաֆարյան Արթուր <br> 
 28. Սուքիասյան Նարե <br> 
 29. Վարդանյան Դավիթ</p>
-        <p class="half-s">
-         <!--   16. Ղազարյան Նունե <br> 
+        <p class="half-s half">
+ 16. Ղազարյան Նունե <br> 
 17. Ղազարյան Ռաֆիկ <br> 
 18. Ղարիբյան Սուսաննա <br> 
 19. Ղուկասյան Սուրեն <br> 
@@ -100,39 +100,13 @@
 26. Պապոյան Ստեփան <br> 
 27. Սաֆարյան Արթուր <br> 
 28. Սուքիասյան Նարե <br> 
-29. Վարդանյան Դավիթ</p> -->
+29. Վարդանյան Դավիթ</p>
         </p> 
         </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../js/script.js"></script>
-    <script src="../js/preloader.js"></script>
-    <script>
-        blockHeight = $('.class').height()
-
-        $('button').click(function() {
-            $('.text').remove()
-            $('button').animate({
-                width: 0,
-                display: 'none',
-                fontSize: 0,
-                Background: '#FFF',
-                margin: '0',
-                padding: '0',
-                borderRadius : '0'
-            },
-                500, function() {
-                $('button').animate({
-                    height: blockHeight
-                });
-            });
-            if (screen.width > 900){
-                $('button').css('marginRight', '45%');
-            }
-        });
-
-                
-    </script>
+<script src="../js/preloader.js"></script>
+<script src="../js/scriptB.js"></script>
 
 </body>
 </html>
