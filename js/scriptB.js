@@ -1,5 +1,6 @@
 blockHeight = $('.class').height()
-$('.half').hide()
+$('half').hide()
+
     $('button').click(function() {
             $('.text').remove()
             $('button').animate({
@@ -15,10 +16,10 @@ $('.half').hide()
                 $('button').animate({
                     height: blockHeight
                 });
-                $('.half').show('slow')
-            });
 
             if (screen.width > 900){
                 $('button').css('marginRight', '45%');
             }
+            $('.half').show('slow').animate({opacity: '1'}, 650)
         });
+}); 

@@ -30,7 +30,13 @@
 	font-size: 2vw;
 	padding:10%;
 	margin: 0;
-	display:none;
+	display: none;
+	opacity: 0;
+}
+
+.halfFade{
+	display: block;
+	opacity: 1;
 }
 
 .half-f{
@@ -40,6 +46,7 @@
 .half-s{
 	float: right;
 }
+
 
 @media screen and (max-width: 900px){
 	.class h1{
@@ -79,3 +86,16 @@
 		font-size: 2.4vw;
 	}
 }
+
+@media screen and (max-width: 392px){
+.half{
+	font-size: 2vw;
+}
+
+}
+
+@media screen and (max-width: 320px){
+	.half{
+	font-size:1.5vw;
+}
+	}
