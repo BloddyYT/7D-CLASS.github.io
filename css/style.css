@@ -261,7 +261,6 @@ button:active{
         background-color: #303030;  
         width: 100%;  
         position: relative;  
-        box-shadow: inset -29px 0px 11px 2px rgb(0 0 0 / 0.4);
     }  
      nav li{
      	padding-left: 0;
