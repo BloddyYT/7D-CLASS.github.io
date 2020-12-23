@@ -3,6 +3,7 @@ $('half').hide()
 
     $('button').click(function() {
             $('.text').remove()
+            $('.class h2').remove()
             $('button').animate({
                 width: 0,
                 display: 'none',

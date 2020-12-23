@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+::-moz-selection{
+    background-color: white;
+}
+
 ::selection{
     background-color: white;
 }
@@ -85,6 +89,8 @@ nav li:last-child a {
 nav a:hover, nav a:active {  
         background-color: #4CAF50;
         color: #fff;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
         transition: all .3s ease;
 }  
 
@@ -93,7 +99,7 @@ nav a#pull {
     display: none;  
 } 
     .menu-logo{
-	float: right;
+    float: right;
     height: 35px;
 }
 
@@ -128,8 +134,7 @@ button{
     font-family: ArialArmST;
     font-weight: 500;
     font-size: 20px;
-    padding: 6px;
-    box-sizing: border-box;    
+    padding: 6px;    
 }
 
 button:hover,
@@ -140,6 +145,8 @@ button:active{
     outline:none;
     cursor: pointer;
     font-style: italic;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
     transition: all .5s ease;
 }
 
@@ -202,6 +209,8 @@ button:active{
     nav a:hover{
         background-color: #4CAF50;
         color: #fff;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
         transition: all .3s ease;
     }
             .btn{
@@ -252,7 +261,7 @@ button:active{
         border-bottom: 0;  
     }  
     nav ul {  
-    	width: 100%;
+        width: 100%;
         display: none;  
         height: auto;  
     }  
@@ -263,8 +272,8 @@ button:active{
         position: relative;  
     }  
      nav li{
-     	padding-left: 0;
-     	float:none;
+        padding-left: 0;
+        float:none;
      }
 }  
 /* hi */
@@ -282,4 +291,3 @@ button:active{
         height: 354px;
     }
 } 
-

@@ -17,12 +17,13 @@
 }
 
 .class button{
-	margin-top: 4%;
+	margin-top: 2%;
 }
 
 .text{
 	color:white;
 	font-size: 12.6px;
+    margin-top: 1%;
 }
 
 .half{
@@ -43,6 +44,10 @@
 	float: right;
 }
 
+.class h2{
+	margin-bottom: 0;
+}
+
 
 @media screen and (max-width: 900px){
 	.class h1{
@@ -59,15 +64,18 @@
 
 @media screen and (max-width: 600px){
 	.class h1{
-		padding-top: 10%;
-		font-size: 7.5vw;
+		padding-top: 2%;
+		font-size: 6.5vw;
 	}
 	.text{
-		font-size:1.9vw;
+		font-size:2.7vw;
 	}
 	.half{
 	font-size: 3.2vw;
     padding: 5%;
+	}
+	.class h2{
+		font-size: 
 	}
 }
 
@@ -77,8 +85,9 @@
 		font-size: 9vw;
 	}
 	.text{
-		font-size:2.8vw;
-	}
+	padding-top: 21px;
+    font-size: 4.1vw;
+}
 	.half{
 		font-size: 3.1vw;
 		padding: 5%;
@@ -91,6 +100,9 @@
 	font-size: 3.8vw;
     padding: 1%;
     padding-top: 45%;
+}
+.text{
+	font-size: 3.2vw;
 }
 
 }
